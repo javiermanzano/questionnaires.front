@@ -44,8 +44,6 @@ function App() {
   });
   const values = formik?.values;
 
-  console.log({ errors: formik?.errors });
-  console.log({ touched: formik?.touched });
   const STEPS = [
     <Welcome
       onNext={() => setStep(step + 1)} />,
